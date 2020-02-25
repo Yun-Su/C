@@ -1,21 +1,20 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<Windows.h>
-#include<stdarg.h>
-//函数可变参数
+#include<stdarg.h>//函数可变参数的头文件.
 void go(int num,...)
 //...代表函数可变参数
 {
-	va_list argp;
-	va_start(argp, num);
+	va_list p;
+	va_start(p, num);
 	for (int i = 0; i < num; i++)
 	{
 		char str[50];
-		strcpy_s(str, va_arg(argp, char *));
+		strcpy_s(str, va_arg(p, char *));
 		printf("%s", str);
 		system(str);
 	}
-	va_end(argp);
+	va_end(p);
 }
 int main()
 {
