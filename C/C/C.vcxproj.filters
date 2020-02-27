@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="函数可变参数3.c">
+    <ClCompile Include="函数可变参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数可变参数2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="函数可变参数3.c" />
+    <ClCompile Include="函数可变参数.cpp" />
+    <ClCompile Include="函数可变参数2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
